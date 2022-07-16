@@ -22,3 +22,25 @@ cargo install jarvis-rust
 Then you will have a `jarvis` command in cargo bin folder.
 
 For more usage, please waiting for my updates.
+
+## Accelerate in China
+
+If you get a slow speed to install cargo crates, then set this in your `~/.cargo/config`:
+
+```
+[source.crates-io]
+registry = "https://github.com/rust-lang/crates.io-index"
+
+
+replace-with = 'tuna'
+
+[source.tuna]
+registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+```
+
+Then `cargo install` would be faster.
+
+
+## License
+
+All rights reserved by Lucas Jin @ 2022
