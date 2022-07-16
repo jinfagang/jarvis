@@ -11,3 +11,14 @@ Jarvis is a command line tool (for current phase) which powers my daily work. So
 - Control my IOT devices automatically in mqtt protocal.
 
 
+## Install
+
+**Jarvis** now lives in crates.io, you can install from: https://crates.io/crates/jarvis-rust via
+
+```
+cargo install jarvis-rust
+```
+
+Then you will have a `jarvis` command in cargo bin folder.
+
+For more usage, please waiting for my updates.
